@@ -1,0 +1,12 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+}
+
+#sample2.sample {background-color: #49bef8; padding:5px 0px; border-radius: 8px 8px 0px 0px;}
+#sample1.sample {background-color: #D9EDF7; padding:5px 0px;; border-radius: 0px 0px 8px 8px;}
+
+
+pre { font-size:12px; border:1px solid black; padding:10px; background-color:#fff; }
