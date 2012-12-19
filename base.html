@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+	 <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-responsive.css">
+	 <link rel="stylesheet" type="text/css" href="assets/css/custom_style.css">
+	 <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 90%;
+		}
+	</style>	 
+	 
+	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+     <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+	 <script type='text/javascript' src='assets/js/jquery.min.js'></script>
+     <script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
+     <script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script> 
+     <script type='text/javascript' src='assets/js/camera.min.js'></script> 
+    
+     <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+	</script>
+	
+    <script type="text/javascript">
+      $(function() {
+        var endDate = "January 25, 2013 09:00:00";
+        $('.countdown-styled').countdown({
+          date: endDate,
+          render: function(data) {
+            var el = $(this.el);
+            el.empty()
+              .append("<div>" + this.leadingZeros(data.days, 3) + " <span>days</span></div>")
+              .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div>")
+              .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
+              .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });
+      });
+    </script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+	</head>
+	
+	<body>
+		<div id="banner" class="row-fluid">
+		</div>
+		<div class="navbar row-fluid">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li class="nav_links active"><a href="#">Home</a></li>
+					<li class="nav_links"><a  href="#">Committees</a></li>
+					<li class="nav_links"><a  href="#">Apply</a></li>
+					<li class="nav_links"><a  href="#">Technical Resources</a></li>
+					<li class="nav_links"><a  href="#">Meet the Team</a></li>
+					<li class="nav_links"><a  href="#">Travel Planning</a></li>
+					<li class="nav_links"><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row-fluid carousel">
+		<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="assets/images/carousel/slides/thumbs/bridge.jpg" data-src="assets/images/carousel/slides/bridge.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+                </div>
+            </div>
+            <div data-thumb="assets/images/carousel/slides/thumbs/leaf.jpg" data-src="assets/images/carousel/slides/leaf.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="assets/images/carousel/slides/thumbs/road.jpg" data-src="assets/images/carousel/slides/road.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+                </div>
+            </div>
+            <div data-thumb="assets/images/carousel/slides/thumbs/sea.jpg" data-src="assets/images/carousel/slides/sea.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                </div>
+            </div>
+            <div data-thumb="assets/images/carousel/slides/thumbs/shelter.jpg" data-src="assets/images/carousel/slides/shelter.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+                </div>
+            </div>
+            <div data-thumb="assets/images/carousel/slides/thumbs/tree.jpg" data-src="assets/images/carousel/slides/tree.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+		</div>
+		</div>
+		<div class="row-fluid container">
+			<div class="span1">
+			</div>
+			<div class="span7">
+				<div class="content">
+					<h1>Sample Heading</h1>
+					<p style="text-align: justify;">Your portfolio should include a close textual analysis: an essay in which you analyze closely a short work of literature (e.g., a sonnet) or an excerpt from a longer work. Your required 3000-level survey courses will include the option of writing this kind of assignment. A close textual analysis (also known as a close reading or Explication de texte) is a finely detailed, very specific interpretation of a short poem or short selected passage from a longer work, showing how the details of the text—the nuances of language, allusions, images and/or rhetorical figures (symbols, metaphors, etc.), the fictional situation, narrative technique—relate to the central themes of the poem, story, or novel. This essay should demonstrate your ability to read sensitively, deliberately and carefully and to use critical terminology appropriately.
+
+Your essay should be at least 3 double-spaced pages ( 750-1000 words) long. It should explore a poem or part of a poem of no more than 50 lines or a passage of prose (e.g., an excerpt from a short story, novel, play, etc.) of no more than 2 pages.
+
+Your essay should interpret the text in depth and detail, paying close attention to the words on the page and giving your sense of what they mean and why they are significant. The essay should point out specific themes, character traits, ideas, images, concerns, stylistic features, etc. that you find important. It should pay some attention to expression and rhetorical strategy as well as to content. In other words, a close textual analysis either looks closely at a very short work in its entirety, or at a specific scene or moment in a longer work in order to make an argument about how a specific “part” of the poem or narrative contributes and relates to the “whole.” You must decide what total effect the writer achieves in a selected poem or passage and support your argument with quotes from the text. The argument you make should be about how the text you've chosen works (its internal functions, dynamics, and structures). It should not use the text to argue about an external generality (e.g. about the way life is) or an internal generality (e.g. about the nature of a certain character), nor should it use the text to "explain" the the historical context.
+
+Close reading is used by many kinds of critics, from New Critical formalists to structuralists, deconstructionists, and members of various social, political, historical and reader-response schools. For a wide-ranging study of various methodologies that employ careful attention to the text, see Frank Lentricchia and Andrew Dubois, eds., Close Reading: The Reader (Durham: Duke Univ. Press, 2003).</p>
+				</div>
+			</div>
+			<div class="span4 widget-area">
+					<div class="widget row">
+						<div class="countdown-styled clearfix"></div>
+					</div>
+					<div class="widget row">
+						<a class="btn btn-primary btn-medium span7" href="#">APPLY AS A DELEGATE</a>
+					</div>
+					<div class="widget row">
+						<div class="alert alert-info span9">
+							<p><b>Anouncement</b></p>
+							<p>This is a test anouncement</p>
+						</div>
+					</div>
+
+			</div>
+		</div>
+	</body>
+</html>
