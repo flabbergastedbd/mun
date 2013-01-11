@@ -12,12 +12,12 @@
 		<div class="navbar row-fluid">
 			<div class="navbar-inner">
 				<ul class="nav">
-					<li class="nav_links" id="home"><a href="index.php">Home</a></li>
-					<li class="nav_links"><a href="index.php?page=aboutus">About Us</a></li>
-					<li class="nav_links"><a  href="index.php?page=committees">Committees</a></li>
-					<li class="nav_links"><a  href="index.php?page=team">Meet the Team</a></li>
-					<li class="nav_links"><a  href="index.php?page=techres">Technical Resources</a></li>
-					<li class="nav_links"><a  href="index.php?page=travelplan">Travel Planning</a></li>
+					<li class="nav_links" id="home"><a href="index.php" style="font-size:120%">Home</a></li>
+					<li class="nav_links"><a href="index.php?page=aboutus" style="font-size:120%">About Us</a></li>
+					<li class="nav_links"><a  href="index.php?page=committees" style="font-size:120%">Committees</a></li>
+					<li class="nav_links"><a  href="index.php?page=team" style="font-size:120%">Meet the Team</a></li>
+					<li class="nav_links"><a  href="index.php?page=techres" style="font-size:120%">Technical Resources</a></li>
+					<li class="nav_links"><a  href="index.php?page=travelplan" style="font-size:120%">Travel Planning</a></li>
 					
 				</ul>
 			</div>
