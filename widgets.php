@@ -27,10 +27,10 @@
 			<a class="btn btn-primary btn-medium span6" href="index.php?page=rege">APPLY FOR EXECUTIVE BOARD</a>
 		</div>
 		<hr class="span6"/>
-		<div class="widget row">
+		<!--<div class="widget row">
 			<div class="span8">
 				<?php if (isset($_GET['page'])){ require('updates.php'); }?>
 			</div>
-		</div>
+		</div> -->
 
 </div>

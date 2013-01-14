@@ -20,6 +20,6 @@ Bharat Kumar </br>
 <h4>ORGANIZING TEAM:</h4>
 <p style="line-height:200%; font-size:125%;">
 
-Manav Sohal, Venkatavaradan Sunderarajan, Ruchika Dasgupta, Niresh Jain Rajat Sharma, Debosmita Mukherjee, Abhilash Dhal, Sweta Suman, Kalyani Ravi, Chayan Kothari, Ashray Kumar.
+Manav Sohal, Venkatavaradan Sunderarajan, Ruchika Dasgupta, Niresh Jain, Rajat Sharma, Debosmita Mukherjee, Abhilash Dhal, Sweta Suman, Kalyani Ravi, Chayan Kothari, Ashray Kumar.
 
 </p>

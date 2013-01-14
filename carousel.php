@@ -49,34 +49,34 @@
 <div class="row-fluid carousel">
 	<div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-            <div data-thumb="assets/images/carousel/slides/thumbs/bridge.jpg" data-src="assets/images/carousel/slides/bridge.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun1.jpg" data-src="assets/images/carousel/slides/mun1.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+                    
                 </div>
             </div>
-            <div data-thumb="assets/images/carousel/slides/thumbs/leaf.jpg" data-src="assets/images/carousel/slides/leaf.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun2.jpg" data-src="assets/images/carousel/slides/mun2.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                    
                 </div>
             </div>
-            <div data-thumb="assets/images/carousel/slides/thumbs/road.jpg" data-src="assets/images/carousel/slides/road.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun3.jpg" data-src="assets/images/carousel/slides/mun3.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    <em>It's completely free</em> (even if a donation is appreciated)
+                    
                 </div>
             </div>
-            <div data-thumb="assets/images/carousel/slides/thumbs/sea.jpg" data-src="assets/images/carousel/slides/sea.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun4.jpg" data-src="assets/images/carousel/slides/mun4.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                    
                 </div>
             </div>
-            <div data-thumb="assets/images/carousel/slides/thumbs/shelter.jpg" data-src="assets/images/carousel/slides/shelter.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun5.jpg" data-src="assets/images/carousel/slides/mun5.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+                    
                 </div>
             </div>
-            <div data-thumb="assets/images/carousel/slides/thumbs/tree.jpg" data-src="assets/images/carousel/slides/tree.jpg">
+            <div data-thumb="assets/images/carousel/slides/thumbs/mun6.jpg" data-src="assets/images/carousel/slides/mun6.jpg">
                 <div class="camera_caption fadeFromBottom">
-                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                    
                 </div>
             </div>
         </div><!-- #camera_wrap_1 -->
